@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { MuxPlayer } from './mux-player';
+import { VideoPlayer } from './video-player';
 
 @Component({
   selector: 'app-root',
-  imports: [MuxPlayer],
+  imports: [VideoPlayer],
   template: `
     <main>
       <h1>Video.js 10 + Mux in Angular</h1>
@@ -13,7 +13,7 @@ import { MuxPlayer } from './mux-player';
       </p>
 
       @defer (on interaction) {
-        <app-mux-player
+        <app-video-player
           playbackId="BV3YZtogl89mg9VcNBhhnHm02Y34zI1nlMuMQfAbl3dM"
           title="Tea and Cookies"
           viewerUserId="user-24601"
