@@ -2,7 +2,7 @@
 
 Plays a Mux video in Angular with [Video.js 10](https://videojs.org) and loads the player only when it is shown.
 
-[Open in CodeSandbox](https://codesandbox.io/p/github/muxinc/videojs-10-angular-mux)
+[Open in StackBlitz](https://stackblitz.com/github/muxinc/videojs-10-angular-mux)
 
 ## How it works
 
